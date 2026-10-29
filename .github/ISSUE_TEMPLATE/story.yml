@@ -1,0 +1,41 @@
+name: User story
+description: Story with REQ traceability
+title: "[US-] "
+labels: ["type:story"]
+body:
+  - type: textarea
+    id: story
+    attributes:
+      label: User story
+      description: As a … I want … so that …
+    validations:
+      required: true
+  - type: textarea
+    id: ac
+    attributes:
+      label: Acceptance criteria
+      value: |
+        - [ ] 
+    validations:
+      required: true
+  - type: input
+    id: req
+    attributes:
+      label: Requirement IDs
+      description: e.g. REQ-FR-12, REQ-NFR-03
+    validations:
+      required: true
+  - type: input
+    id: epic
+    attributes:
+      label: Epic
+      description: e.g. EP-02
+  - type: checkboxes
+    id: dor
+    attributes:
+      label: Definition of Ready
+      options:
+        - label: REQ linked
+        - label: AC written
+        - label: Test approach noted
+        - label: RTM row will be updated on merge

@@ -1,5 +1,7 @@
 # Part 1 — Foundations
 
+> **Curriculum:** Prefer a gap-free order? Follow [STUDY-PATH.md](../STUDY-PATH.md) from [Part 0](00-glossary-and-map.md) onward.
+
 ## What you are learning
 
 Two different skills get mixed up:
