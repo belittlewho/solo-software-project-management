@@ -92,6 +92,12 @@ GitHub issue template for stories: [.github/ISSUE_TEMPLATE/story.yml](.github/IS
 
 ---
 
+## Related guide
+
+- [Solo DevOps & DevSecOps](https://github.com/belittlewho/solo-devops-devsecops) — Linux infrastructure, CI/CD, IaC, security from scratch
+
+---
+
 ## License
 
 MIT — use, fork, and adapt freely.
